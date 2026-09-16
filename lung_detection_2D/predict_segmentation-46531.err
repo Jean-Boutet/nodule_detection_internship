@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/predict_segmentation.py", line 125, in <module>
+    main()
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/predict_segmentation.py", line 89, in main
+    image = np.load(args.input_npy)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/images/<sample>.npy'

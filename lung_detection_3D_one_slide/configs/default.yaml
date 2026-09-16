@@ -1,0 +1,55 @@
+data:
+  train_csv: "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/train.csv"
+  test_csv:  "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/test.csv"
+  images_dir: "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/images"
+  masks_dir:  "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/masks"
+  image_size: 256
+  in_channels: 1
+  volume_depth: 9
+  volume_stride: 1
+
+  col_patient: patient_id
+  col_center_slice: center_slice
+  col_nodule_idxs: grouped_nodule_idxs
+  col_malignancy: malignancy
+  col_image_path: image_path
+  col_mask_path: mask_path
+
+model:
+  name: yolo_3d_context
+  backbone: cspdarknet_lite
+  num_classes: 1
+  strides: [8, 16, 32]
+  num_anchors_per_scale: 3
+  anchors: []
+  anchors_fallback:
+    - [[10,13],[16,30],[33,23]]
+    - [[30,61],[62,45],[59,119]]
+    - [[116,90],[156,198],[373,326]]
+
+train:
+  epochs: 80
+  batch_size: 2
+  num_workers: 2
+  lr: 1e-4
+  weight_decay: 5e-4
+  optimizer: "adamw"
+  scheduler: "cosine"
+  amp: true
+  grad_clip: 10.0
+  early_stopping_patience: 20
+  seed: 42
+  save_dir: checkpoints
+  log_dir: runs
+
+loss:
+  box_weight: 7.0
+  obj_weight: 2.0
+  mal_weight: 1.0
+  obj_pos_weight: 1.0
+  mal_pos_weight: 1.0
+
+infer:
+  conf_threshold: 0.12
+  iou_threshold: 0.30
+  max_det: 100

@@ -1,0 +1,7 @@
+Selected input: /nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/images/LIDC-IDRI-0671_slice_203_img.npy
+wrote detections_out/LIDC-IDRI-0671_slice_203_img.png and detections_out/detections.csv
+WARNING: no ground truth row for sample LIDC-IDRI-0671_slice_203_img__0
+Evaluated 0 samples
+GT boxes: 0 | TP: 0 | FP: 0 | FN: 0
+Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+---

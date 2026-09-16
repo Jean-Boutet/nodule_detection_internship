@@ -1,0 +1,6 @@
+epoch 1/5 loss=0.036654
+epoch 2/5 loss=0.004815
+epoch 3/5 loss=0.003179
+epoch 4/5 loss=0.002223
+epoch 5/5 loss=0.001734
+saved to checkpoints/3d_context_best.pt

@@ -1,0 +1,51 @@
+kmeans-anchors scan:   0%|          | 0/2000 [00:00<?, ?it/s]kmeans-anchors scan:   1%|          | 22/2000 [00:00<00:09, 210.36it/s]kmeans-anchors scan:   2%|▏         | 48/2000 [00:00<00:08, 238.02it/s]kmeans-anchors scan:   4%|▍         | 78/2000 [00:00<00:07, 265.30it/s]kmeans-anchors scan:   5%|▌         | 105/2000 [00:00<00:07, 250.88it/s]kmeans-anchors scan:   7%|▋         | 131/2000 [00:00<00:07, 240.45it/s]kmeans-anchors scan:   8%|▊         | 157/2000 [00:00<00:07, 245.20it/s]kmeans-anchors scan:   9%|▉         | 182/2000 [00:00<00:07, 245.21it/s]kmeans-anchors scan:  10%|█         | 208/2000 [00:00<00:07, 248.46it/s]kmeans-anchors scan:  12%|█▏        | 233/2000 [00:00<00:07, 240.53it/s]kmeans-anchors scan:  13%|█▎        | 263/2000 [00:01<00:06, 255.47it/s]kmeans-anchors scan:  15%|█▍        | 292/2000 [00:01<00:06, 264.67it/s]kmeans-anchors scan:  16%|█▌        | 319/2000 [00:01<00:06, 263.21it/s]kmeans-anchors scan:  17%|█▋        | 346/2000 [00:01<00:06, 255.73it/s]kmeans-anchors scan:  19%|█▊        | 372/2000 [00:01<00:06, 251.66it/s]kmeans-anchors scan:  20%|█▉        | 398/2000 [00:01<00:06, 252.85it/s]kmeans-anchors scan:  21%|██        | 424/2000 [00:01<00:06, 254.59it/s]kmeans-anchors scan:  22%|██▎       | 450/2000 [00:01<00:06, 249.93it/s]kmeans-anchors scan:  24%|██▍       | 476/2000 [00:01<00:06, 247.76it/s]kmeans-anchors scan:  25%|██▌       | 501/2000 [00:02<00:06, 241.62it/s]kmeans-anchors scan:  26%|██▋       | 527/2000 [00:02<00:06, 245.00it/s]kmeans-anchors scan:  28%|██▊       | 552/2000 [00:02<00:05, 245.97it/s]kmeans-anchors scan:  29%|██▉       | 579/2000 [00:02<00:05, 250.48it/s]kmeans-anchors scan:  30%|███       | 607/2000 [00:02<00:05, 256.90it/s]kmeans-anchors scan:  32%|███▏      | 633/2000 [00:02<00:05, 250.35it/s]kmeans-anchors scan:  33%|███▎      | 659/2000 [00:02<00:05, 246.42it/s]kmeans-anchors scan:  34%|███▍      | 684/2000 [00:02<00:05, 247.41it/s]kmeans-anchors scan:  35%|███▌      | 709/2000 [00:02<00:05, 245.34it/s]kmeans-anchors scan:  37%|███▋      | 734/2000 [00:02<00:05, 244.47it/s]kmeans-anchors scan:  38%|███▊      | 760/2000 [00:03<00:04, 248.58it/s]kmeans-anchors scan:  39%|███▉      | 785/2000 [00:03<00:04, 245.37it/s]kmeans-anchors scan:  41%|████      | 813/2000 [00:03<00:04, 251.66it/s]kmeans-anchors scan:  42%|████▏     | 839/2000 [00:03<00:04, 253.11it/s]kmeans-anchors scan:  43%|████▎     | 866/2000 [00:03<00:04, 255.10it/s]kmeans-anchors scan:  45%|████▍     | 892/2000 [00:03<00:04, 255.88it/s]kmeans-anchors scan:  46%|████▌     | 918/2000 [00:03<00:04, 253.57it/s]kmeans-anchors scan:  47%|████▋     | 944/2000 [00:03<00:04, 250.52it/s]kmeans-anchors scan:  49%|████▊     | 971/2000 [00:03<00:04, 253.55it/s]kmeans-anchors scan:  50%|████▉     | 998/2000 [00:03<00:03, 256.96it/s]kmeans-anchors scan:  51%|█████▏    | 1025/2000 [00:04<00:03, 259.84it/s]kmeans-anchors scan:  53%|█████▎    | 1055/2000 [00:04<00:03, 268.24it/s]kmeans-anchors scan:  54%|█████▍    | 1082/2000 [00:04<00:03, 264.92it/s]kmeans-anchors scan:  55%|█████▌    | 1109/2000 [00:04<00:03, 248.14it/s]kmeans-anchors scan:  57%|█████▋    | 1136/2000 [00:04<00:03, 251.30it/s]kmeans-anchors scan:  58%|█████▊    | 1162/2000 [00:04<00:03, 249.36it/s]kmeans-anchors scan:  59%|█████▉    | 1188/2000 [00:04<00:03, 250.23it/s]kmeans-anchors scan:  61%|██████    | 1214/2000 [00:04<00:03, 251.78it/s]kmeans-anchors scan:  62%|██████▏   | 1241/2000 [00:04<00:02, 253.34it/s]kmeans-anchors scan:  63%|██████▎   | 1268/2000 [00:05<00:02, 256.70it/s]kmeans-anchors scan:  65%|██████▍   | 1294/2000 [00:05<00:02, 255.33it/s]kmeans-anchors scan:  66%|██████▌   | 1320/2000 [00:05<00:02, 253.43it/s]kmeans-anchors scan:  68%|██████▊   | 1351/2000 [00:05<00:02, 266.16it/s]kmeans-anchors scan:  69%|██████▉   | 1379/2000 [00:05<00:02, 268.37it/s]kmeans-anchors scan:  70%|███████   | 1406/2000 [00:05<00:02, 256.21it/s]kmeans-anchors scan:  72%|███████▏  | 1433/2000 [00:05<00:02, 259.12it/s]kmeans-anchors scan:  73%|███████▎  | 1464/2000 [00:05<00:01, 272.11it/s]kmeans-anchors scan:  75%|███████▍  | 1492/2000 [00:05<00:01, 266.23it/s]kmeans-anchors scan:  76%|███████▌  | 1519/2000 [00:05<00:01, 260.33it/s]kmeans-anchors scan:  77%|███████▋  | 1546/2000 [00:06<00:01, 255.78it/s]kmeans-anchors scan:  79%|███████▉  | 1575/2000 [00:06<00:01, 264.47it/s]kmeans-anchors scan:  80%|████████  | 1602/2000 [00:06<00:01, 263.69it/s]kmeans-anchors scan:  81%|████████▏ | 1629/2000 [00:06<00:01, 265.12it/s]kmeans-anchors scan:  83%|████████▎ | 1656/2000 [00:06<00:01, 259.54it/s]kmeans-anchors scan:  84%|████████▍ | 1683/2000 [00:06<00:01, 247.37it/s]kmeans-anchors scan:  85%|████████▌ | 1709/2000 [00:06<00:01, 247.87it/s]kmeans-anchors scan:  87%|████████▋ | 1734/2000 [00:06<00:01, 244.70it/s]kmeans-anchors scan:  88%|████████▊ | 1759/2000 [00:06<00:01, 239.31it/s]kmeans-anchors scan:  89%|████████▉ | 1786/2000 [00:07<00:00, 247.73it/s]kmeans-anchors scan:  91%|█████████ | 1811/2000 [00:07<00:00, 237.13it/s]kmeans-anchors scan:  92%|█████████▏| 1835/2000 [00:07<00:00, 230.67it/s]kmeans-anchors scan:  93%|█████████▎| 1859/2000 [00:07<00:00, 223.06it/s]kmeans-anchors scan:  94%|█████████▍| 1882/2000 [00:07<00:00, 224.51it/s]kmeans-anchors scan:  95%|█████████▌| 1905/2000 [00:07<00:00, 225.38it/s]kmeans-anchors scan:  97%|█████████▋| 1932/2000 [00:07<00:00, 237.44it/s]kmeans-anchors scan:  98%|█████████▊| 1959/2000 [00:07<00:00, 246.54it/s]kmeans-anchors scan:  99%|█████████▉| 1988/2000 [00:07<00:00, 255.68it/s]kmeans-anchors scan: 100%|██████████| 2000/2000 [00:07<00:00, 251.13it/s]
+/nas-ctm01/homes/jboutet/lung_detection_2D/train_test.py:216: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+epoch 1/20:   0%|          | 0/1031 [00:00<?, ?it/s]/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+epoch 1/20:   0%|          | 0/1031 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '\\"patient_id\\"'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/train_test.py", line 356, in <module>
+    main()
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/train_test.py", line 350, in main
+    train(cfg, args)
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/train_test.py", line 231, in train
+    for imgs, targets in pbar:
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/tqdm/std.py", line 1187, in __iter__
+    for obj in iterable:
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 725, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 785, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 54, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/dataloader.py", line 225, in __getitem__
+    "image_id": f"{row[self.col_patient]}_{int(row[self.col_slice])}",
+                   ~~~^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/pandas/core/series.py", line 959, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/pandas/core/series.py", line 1046, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: '\\"patient_id\\"'

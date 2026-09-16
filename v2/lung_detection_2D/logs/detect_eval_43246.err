@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/evaluate_detections.py", line 261, in <module>
+    main()
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/evaluate_detections.py", line 185, in main
+    raise ValueError("No prediction samples found for evaluation")
+ValueError: No prediction samples found for evaluation

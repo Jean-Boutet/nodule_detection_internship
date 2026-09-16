@@ -1,0 +1,32 @@
+Requirement already satisfied: numpy in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (1.23.5)
+Requirement already satisfied: pandas in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (3.0.3)
+Requirement already satisfied: pylidc in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (0.2.3)
+Collecting numpy
+  Using cached numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: sqlalchemy>=1.1.5 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pylidc) (2.0.51)
+Requirement already satisfied: scipy>=0.18.1 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pylidc) (1.17.1)
+Requirement already satisfied: matplotlib>=2.0.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pylidc) (3.11.0)
+Requirement already satisfied: pydicom>=1.0.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pylidc) (3.0.2)
+Requirement already satisfied: scikit-image>=0.13 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from pylidc) (0.26.0)
+Requirement already satisfied: contourpy>=1.0.1 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (4.63.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (26.0)
+Requirement already satisfied: pillow>=9 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from matplotlib>=2.0.0->pylidc) (3.3.2)
+Requirement already satisfied: six>=1.5 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Requirement already satisfied: networkx>=3.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from scikit-image>=0.13->pylidc) (3.6.1)
+Requirement already satisfied: imageio!=2.35.0,>=2.33 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from scikit-image>=0.13->pylidc) (2.37.3)
+Requirement already satisfied: tifffile>=2022.8.12 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from scikit-image>=0.13->pylidc) (2026.3.3)
+Requirement already satisfied: lazy-loader>=0.4 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from scikit-image>=0.13->pylidc) (0.5)
+Requirement already satisfied: greenlet>=1 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from sqlalchemy>=1.1.5->pylidc) (3.5.3)
+Requirement already satisfied: typing-extensions>=4.6.0 in /nas-ctm01/homes/jboutet/.conda/envs/preprocess/lib/python3.11/site-packages (from sqlalchemy>=1.1.5->pylidc) (4.16.0)
+Using cached numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.23.5
+    Uninstalling numpy-1.23.5:
+      Successfully uninstalled numpy-1.23.5
+Successfully installed numpy-2.4.6

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D_one_slide/train_test.py", line 356, in <module>
+    main()
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D_one_slide/train_test.py", line 352, in main
+    test(cfg, args)
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D_one_slide/train_test.py", line 309, in test
+    model.load_state_dict(ckpt["model"])
+  File "/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2593, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for YoloLIDC:
+	size mismatch for backbone.stem.conv.weight: copying a param with shape torch.Size([32, 1, 3, 3]) from checkpoint, the shape in current model is torch.Size([32, 3, 3, 3]).

@@ -1,0 +1,38 @@
+# Configuration / fichiers personnels
+.bash_history
+.bash_logout
+.profile
+.wget-hsts
+.pylidcrc
+.claude.json
+
+# Dossiers système / configuration
+.anaconda/
+.cache/
+.conda/
+.config/
+.copilot/
+.dotnet/
+.local/
+.ssh/
+.vscode-server/
+
+# Environnements / données Python
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+
+# Datasets / données volumineuses
+**/*.npy
+**/*.npz
+**/*.nii
+**/*.nii.gz
+**/*.dcm
+
+# Modèles / checkpoints
+**/*.pt
+**/*.pth
+**/*.onnx
+
+# Logs
+**/*.log

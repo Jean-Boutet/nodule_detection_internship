@@ -1,0 +1,2 @@
+/nas-ctm01/homes/jboutet/.conda/envs/lung_detection_2D/lib/python3.11/site-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)

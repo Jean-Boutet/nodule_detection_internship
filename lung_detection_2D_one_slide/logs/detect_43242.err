@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/detect.py", line 193, in <module>
+    main()
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/detect.py", line 165, in main
+    raise ValueError(f"unsupported input {inp}")
+ValueError: unsupported input /chemin/vers/ton/fichier

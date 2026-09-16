@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/train_test.py", line 18, in <module>
+    from dataloader import LIDCDetectionDataset, build_loader
+  File "/nas-ctm01/homes/jboutet/lung_detection_2D/dataloader.py", line 8, in <module>
+    import albumentations as A
+ModuleNotFoundError: No module named 'albumentations'

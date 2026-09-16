@@ -1,0 +1,69 @@
+data:
+  train_csv: "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/train.csv"
+  test_csv:  "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/test.csv"
+  images_dir: "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/images"      # each file: *.npy single-channel CT scan, typically (256,256,256) or (256,256)
+  masks_dir:  "/nas-ctm01/homes/jboutet/preprocessing/LIDC-detection/masks"       # each file: *.npy shape same as image
+  image_size: 256
+  in_channels: 1            # single-channel CT slice for a 256x256 scan
+  # column names in CSV (adjust to your enriched CSV)
+  col_patient: patient_id
+  col_center_slice: center_slice
+  col_nodule_idxs: grouped_nodule_idxs      # list-like or comma-string
+  col_malignancy:  malignancy        # list aligned with nodule_idxs (0/1)
+  col_image_path:  image_path               # optional; else built from patient_id/center_slice
+  col_mask_path:   mask_path
+
+model:
+  name: yolo_lidc
+  backbone: cspdarknet_lite     # {cspdarknet_lite, resnet18}
+  num_classes: 1                  # single foreground class "nodule"
+  strides: [8, 16, 32]            # 3 detection scales -> feature maps 32x32, 16x16, 8x8 (for 256 input)
+  num_anchors_per_scale: 3
+  # if empty, k-means anchors will be computed on the training set at start
+  anchors: []
+  # fallback anchors (YOLOv5-style small) used if k-means fails
+  anchors_fallback:
+    - [[10,13],[16,30],[33,23]]      # stride 8
+    - [[30,61],[62,45],[59,119]]     # stride 16
+    - [[116,90],[156,198],[373,326]] # stride 32
+
+train:
+  epochs: 100
+  batch_size: 8
+  num_workers: 4
+  lr: 0.001
+  weight_decay: 0.0005
+  optimizer: \"adamw\"
+  scheduler: \"cosine\"
+  warmup_epochs: 3
+  amp: true
+  grad_clip: 10.0
+  early_stopping_patience: 25
+  seed: 42
+  save_dir: checkpoints
+  log_dir: runs
+
+loss:
+  box_weight: 7.0
+  obj_weight: 2.0
+  mal_weight: 1.0
+  obj_pos_weight: 1.0    # BCE pos_weight for objectness
+  mal_pos_weight: 1.0    # BCE pos_weight for malignancy
+
+anchors_kmeans:
+  enabled: true
+  n_anchors: 9
+  n_samples: 2000
+  n_iters: 30
+
+infer:
+  conf_threshold: 0.12
+  iou_threshold: 0.30
+  max_det: 100
+
+aug:
+  hflip: 0.5
+  vflip: 0.5
+  rotate_limit: 20        # degrees
+  brightness_limit: 0.20
+  contrast_limit: 0.20

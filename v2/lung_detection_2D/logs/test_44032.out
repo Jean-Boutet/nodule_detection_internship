@@ -1,0 +1,16 @@
+{
+  "mAP50": 0.47653318595105904,
+  "mal_accuracy": 0.7061068702290076,
+  "mal_auc": 0.7833096254148886,
+  "mal_confusion": [
+    [
+      84,
+      30
+    ],
+    [
+      47,
+      101
+    ]
+  ]
+}
+metrics saved to checkpoints/test_metrics.json
